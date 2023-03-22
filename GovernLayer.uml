@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_8Y2rgMWBEe2WhI0ZcH7BkQ" name="GovernLayer">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_8amX8cWBEe2WhI0ZcH7BkQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_8atssMWBEe2WhI0ZcH7BkQ">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RvLv4MWCEe2WhI0ZcH7BkQ" name="1 High Level">
+      <packagedElement xmi:type="uml:Package" xmi:id="_h4KloMWCEe2WhI0ZcH7BkQ" name="1 Requirements">
+        <packagedElement xmi:type="uml:Class" xmi:id="_fU9aUMWIEe2WhI0ZcH7BkQ" name="R001-A Introduccion de un recorrido a mano"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVAdoMWIEe2WhI0ZcH7BkQ" name="R002-A Introduccion de parametros de movimiento"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVDg8MWIEe2WhI0ZcH7BkQ" name="R003-A Carga de fichero con las coordenadas"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVF9MMWIEe2WhI0ZcH7BkQ" name="R004-A Exportar plan de trabajo a un fichero"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVJAgMWIEe2WhI0ZcH7BkQ" name="R005-A Confirmacion de ordenes recibidas"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVLcwMWIEe2WhI0ZcH7BkQ" name="R006-A Comienzo tras confirmacion de prioridad"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVOgEMWIEe2WhI0ZcH7BkQ" name="R007-A Comienzo tras confirmacion de prioridad"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVRjYMWIEe2WhI0ZcH7BkQ" name="R008-A Interrupcion de ejecucion"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVT_oMWIEe2WhI0ZcH7BkQ" name="R009-A Solicitud de vuelta a base"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVXC8MWIEe2WhI0ZcH7BkQ" name="R010-A Solicitud de informacion a los sensores"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVaGQMWIEe2WhI0ZcH7BkQ" name="R011-A Representacion grafica del entorno del robot"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVcigMWIEe2WhI0ZcH7BkQ" name="R012-A Envio de feedback al llegar a un checkpoint"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVfl0MWIEe2WhI0ZcH7BkQ" name="R013-A Solicitud de informacion de la posicion segun odometria"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fViCEMWIEe2WhI0ZcH7BkQ" name="R014-A Solicitud de informacion segun IMU"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fVlFYMWIEe2WhI0ZcH7BkQ" name="R015-A Solicitud de informacion segun triangulacion"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_9A0VgMWkEe2WhI0ZcH7BkQ" name="2 Use Cases">
+        <packagedElement xmi:type="uml:Association" xmi:id="_4cjE0MW_Ee2WhI0ZcH7BkQ" memberEnd="_4clhEMW_Ee2WhI0ZcH7BkQ _4clhEcW_Ee2WhI0ZcH7BkQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4ckS8MW_Ee2WhI0ZcH7BkQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4ckS8cW_Ee2WhI0ZcH7BkQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_4clhEMW_Ee2WhI0ZcH7BkQ" name="operator" type="_NPV9IMWmEe2WhI0ZcH7BkQ" association="_4cjE0MW_Ee2WhI0ZcH7BkQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_4clhEcW_Ee2WhI0ZcH7BkQ" name="enter a route" type="_unu70MW_Ee2WhI0ZcH7BkQ" association="_4cjE0MW_Ee2WhI0ZcH7BkQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_7Ic_gMXBEe2WhI0ZcH7BkQ" memberEnd="_7IdmksXBEe2WhI0ZcH7BkQ _7Idmk8XBEe2WhI0ZcH7BkQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7IdmkMXBEe2WhI0ZcH7BkQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7IdmkcXBEe2WhI0ZcH7BkQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_7IdmksXBEe2WhI0ZcH7BkQ" name="operator" type="_NPV9IMWmEe2WhI0ZcH7BkQ" association="_7Ic_gMXBEe2WhI0ZcH7BkQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_7Idmk8XBEe2WhI0ZcH7BkQ" name="request sensors info" type="_35oTEMXBEe2WhI0ZcH7BkQ" association="_7Ic_gMXBEe2WhI0ZcH7BkQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_UDIUYMXCEe2WhI0ZcH7BkQ" memberEnd="_UDI7csXCEe2WhI0ZcH7BkQ _UDI7c8XCEe2WhI0ZcH7BkQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UDI7cMXCEe2WhI0ZcH7BkQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UDI7ccXCEe2WhI0ZcH7BkQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_UDI7csXCEe2WhI0ZcH7BkQ" name="operator" type="_NPV9IMWmEe2WhI0ZcH7BkQ" association="_UDIUYMXCEe2WhI0ZcH7BkQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_UDI7c8XCEe2WhI0ZcH7BkQ" name="read route and sensors info" type="_OipuYMXCEe2WhI0ZcH7BkQ" association="_UDIUYMXCEe2WhI0ZcH7BkQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_cWOzAMXCEe2WhI0ZcH7BkQ" memberEnd="_cWOzA8XCEe2WhI0ZcH7BkQ _cWOzBMXCEe2WhI0ZcH7BkQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cWOzAcXCEe2WhI0ZcH7BkQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cWOzAsXCEe2WhI0ZcH7BkQ" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_cWOzA8XCEe2WhI0ZcH7BkQ" name="operator" type="_NPV9IMWmEe2WhI0ZcH7BkQ" association="_cWOzAMXCEe2WhI0ZcH7BkQ"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_cWOzBMXCEe2WhI0ZcH7BkQ" name="interrupt execution" type="_ZB_bEMXCEe2WhI0ZcH7BkQ" association="_cWOzAMXCEe2WhI0ZcH7BkQ"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_OHd0wMWiEe2WhI0ZcH7BkQ" name="3 System Context">
+        <packagedElement xmi:type="uml:Package" xmi:id="_4lSI4MWlEe2WhI0ZcH7BkQ" name="Robot Context">
+          <packagedElement xmi:type="uml:Class" xmi:id="_TNX-oMWiEe2WhI0ZcH7BkQ" name="Robot" useCase="_unu70MW_Ee2WhI0ZcH7BkQ _35oTEMXBEe2WhI0ZcH7BkQ _EdNIYMXCEe2WhI0ZcH7BkQ _GigA8MXCEe2WhI0ZcH7BkQ _OipuYMXCEe2WhI0ZcH7BkQ _ZB_bEMXCEe2WhI0ZcH7BkQ">
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_unu70MW_Ee2WhI0ZcH7BkQ" name="Enter a route" subject="_TNX-oMWiEe2WhI0ZcH7BkQ">
+              <include xmi:type="uml:Include" xmi:id="_Jy2-cMXCEe2WhI0ZcH7BkQ" addition="_EdNIYMXCEe2WhI0ZcH7BkQ"/>
+              <include xmi:type="uml:Include" xmi:id="_LCBgQMXCEe2WhI0ZcH7BkQ" addition="_GigA8MXCEe2WhI0ZcH7BkQ"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_35oTEMXBEe2WhI0ZcH7BkQ" name="Request sensors info" subject="_TNX-oMWiEe2WhI0ZcH7BkQ"/>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_EdNIYMXCEe2WhI0ZcH7BkQ" name="Enter a coordinates list" subject="_TNX-oMWiEe2WhI0ZcH7BkQ"/>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_GigA8MXCEe2WhI0ZcH7BkQ" name="Upload a coordiates file" subject="_TNX-oMWiEe2WhI0ZcH7BkQ"/>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_OipuYMXCEe2WhI0ZcH7BkQ" name="Read route and sensors info" subject="_TNX-oMWiEe2WhI0ZcH7BkQ"/>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZB_bEMXCEe2WhI0ZcH7BkQ" name="Interrupt execution" subject="_TNX-oMWiEe2WhI0ZcH7BkQ"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_52kcgMWjEe2WhI0ZcH7BkQ" name="Property1" type="_DtL8UMWkEe2WhI0ZcH7BkQ" aggregation="composite" association="_DtOYkMWkEe2WhI0ZcH7BkQ"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_d3bboMWkEe2WhI0ZcH7BkQ" name="Property2" type="_fNPYAMWkEe2WhI0ZcH7BkQ" aggregation="composite" association="_fNU3kMWkEe2WhI0ZcH7BkQ"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_pzj2cMWkEe2WhI0ZcH7BkQ" name="Property3" type="_rg4T4MWkEe2WhI0ZcH7BkQ" aggregation="composite" association="_rg6wIMWkEe2WhI0ZcH7BkQ"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_u0G_MMWkEe2WhI0ZcH7BkQ" name="Property4" type="_wBIzAMWkEe2WhI0ZcH7BkQ" aggregation="composite" association="_wBKoMcWkEe2WhI0ZcH7BkQ"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_TZSbQMXEEe2WhI0ZcH7BkQ" name="MiWi" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_AKiR8MXFEe2WhI0ZcH7BkQ" name="MiWi" aggregation="composite"/>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_mzi0gMXEEe2WhI0ZcH7BkQ" name="Connector12">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_mzkCoMXEEe2WhI0ZcH7BkQ" partWithPort="_d3bboMWkEe2WhI0ZcH7BkQ" role="_kyZcIMXEEe2WhI0ZcH7BkQ"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_mzkCocXEEe2WhI0ZcH7BkQ" partWithPort="_u0G_MMWkEe2WhI0ZcH7BkQ" role="_fcuX8MXEEe2WhI0ZcH7BkQ"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_wcj9MMXEEe2WhI0ZcH7BkQ" name="Connector13">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_wckkQMXEEe2WhI0ZcH7BkQ" partWithPort="_52kcgMWjEe2WhI0ZcH7BkQ" role="_uf_i0MXEEe2WhI0ZcH7BkQ"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_wclLUMXEEe2WhI0ZcH7BkQ" partWithPort="_d3bboMWkEe2WhI0ZcH7BkQ" role="_rOG7UMXEEe2WhI0ZcH7BkQ"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_FkFwkMXFEe2WhI0ZcH7BkQ" name="Connector16">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_FkGXoMXFEe2WhI0ZcH7BkQ" role="_AKiR8MXFEe2WhI0ZcH7BkQ"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_FkGXocXFEe2WhI0ZcH7BkQ" partWithPort="_52kcgMWjEe2WhI0ZcH7BkQ" role="_C5krEMXFEe2WhI0ZcH7BkQ"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_zbZAYMjmEe2KE5QMEivQQA" name="Connector16">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_zbaOgMjmEe2KE5QMEivQQA" partWithPort="_pzj2cMWkEe2WhI0ZcH7BkQ" role="_24rsEMXEEe2WhI0ZcH7BkQ"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_zbaOgcjmEe2KE5QMEivQQA" partWithPort="_d3bboMWkEe2WhI0ZcH7BkQ" role="_uSjeUMjmEe2KE5QMEivQQA"/>
+            </ownedConnector>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_DtL8UMWkEe2WhI0ZcH7BkQ" name="Govern Layer">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_uf_i0MXEEe2WhI0ZcH7BkQ" name="UART" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_C5krEMXFEe2WhI0ZcH7BkQ" name="MiWi" aggregation="composite"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DtOYkMWkEe2WhI0ZcH7BkQ" memberEnd="_52kcgMWjEe2WhI0ZcH7BkQ _DtQNwMWkEe2WhI0ZcH7BkQ">
+            <ownedEnd xmi:type="uml:Property" xmi:id="_DtQNwMWkEe2WhI0ZcH7BkQ" type="_TNX-oMWiEe2WhI0ZcH7BkQ" association="_DtOYkMWkEe2WhI0ZcH7BkQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_fNPYAMWkEe2WhI0ZcH7BkQ" name="Navigation Layer">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_kyZcIMXEEe2WhI0ZcH7BkQ" name="UART" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_rOG7UMXEEe2WhI0ZcH7BkQ" name="UART" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_uSjeUMjmEe2KE5QMEivQQA" name="UART" aggregation="composite"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_fNU3kMWkEe2WhI0ZcH7BkQ" memberEnd="_d3bboMWkEe2WhI0ZcH7BkQ _fNWFsMWkEe2WhI0ZcH7BkQ">
+            <ownedEnd xmi:type="uml:Property" xmi:id="_fNWFsMWkEe2WhI0ZcH7BkQ" type="_TNX-oMWiEe2WhI0ZcH7BkQ" association="_fNU3kMWkEe2WhI0ZcH7BkQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_nGRJwMWkEe2WhI0ZcH7BkQ" name="Perception"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_rg4T4MWkEe2WhI0ZcH7BkQ" name="Perception Layer">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_24rsEMXEEe2WhI0ZcH7BkQ" name="UART" aggregation="composite"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_rg6wIMWkEe2WhI0ZcH7BkQ" memberEnd="_pzj2cMWkEe2WhI0ZcH7BkQ _rg7XMMWkEe2WhI0ZcH7BkQ">
+            <ownedEnd xmi:type="uml:Property" xmi:id="_rg7XMMWkEe2WhI0ZcH7BkQ" type="_TNX-oMWiEe2WhI0ZcH7BkQ" association="_rg6wIMWkEe2WhI0ZcH7BkQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_wBIzAMWkEe2WhI0ZcH7BkQ" name="Control Layer">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_fcuX8MXEEe2WhI0ZcH7BkQ" name="UART" aggregation="composite"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wBKoMcWkEe2WhI0ZcH7BkQ" memberEnd="_u0G_MMWkEe2WhI0ZcH7BkQ _wBL2UMWkEe2WhI0ZcH7BkQ">
+            <ownedEnd xmi:type="uml:Property" xmi:id="_wBL2UMWkEe2WhI0ZcH7BkQ" type="_TNX-oMWiEe2WhI0ZcH7BkQ" association="_wBKoMcWkEe2WhI0ZcH7BkQ"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_90YD8MWlEe2WhI0ZcH7BkQ" name="Operator Station Context">
+          <packagedElement xmi:type="uml:Class" xmi:id="_CWrKcMWmEe2WhI0ZcH7BkQ" name="Operator Station">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_MkEykMWmEe2WhI0ZcH7BkQ" name="Property1" type="_NPV9IMWmEe2WhI0ZcH7BkQ" aggregation="composite" association="_NPYZYMWmEe2WhI0ZcH7BkQ"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_OSDXUMWmEe2WhI0ZcH7BkQ" name="Property2" type="_O_Y-cMWmEe2WhI0ZcH7BkQ" aggregation="composite" association="_O_azoMWmEe2WhI0ZcH7BkQ"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_S_8p0MWmEe2WhI0ZcH7BkQ" name="Property3" type="_UdHycMWmEe2WhI0ZcH7BkQ" aggregation="composite" association="_UdJnoMWmEe2WhI0ZcH7BkQ"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_U_ouAMXEEe2WhI0ZcH7BkQ" name="MiWi" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_K0rgcMXFEe2WhI0ZcH7BkQ" name="MiWi" aggregation="composite"/>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_r7fbMMXDEe2WhI0ZcH7BkQ" name="Connector4">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_r7gCQMXDEe2WhI0ZcH7BkQ" role="_MkEykMWmEe2WhI0ZcH7BkQ"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_r7gCQcXDEe2WhI0ZcH7BkQ" role="_OSDXUMWmEe2WhI0ZcH7BkQ"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_-ZavEMXDEe2WhI0ZcH7BkQ" name="Connector5">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_-ZbWIMXDEe2WhI0ZcH7BkQ" partWithPort="_OSDXUMWmEe2WhI0ZcH7BkQ" role="_wz4tgMXDEe2WhI0ZcH7BkQ"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_-ZbWIcXDEe2WhI0ZcH7BkQ" partWithPort="_S_8p0MWmEe2WhI0ZcH7BkQ" role="_8YSk0MXDEe2WhI0ZcH7BkQ"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_Mh1l0MXFEe2WhI0ZcH7BkQ" name="Connector8">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_Mh2M4MXFEe2WhI0ZcH7BkQ" partWithPort="_S_8p0MWmEe2WhI0ZcH7BkQ" role="__m0WUMXDEe2WhI0ZcH7BkQ"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_Mh2z8MXFEe2WhI0ZcH7BkQ" role="_K0rgcMXFEe2WhI0ZcH7BkQ"/>
+            </ownedConnector>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_NPV9IMWmEe2WhI0ZcH7BkQ" name="Operator"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_NPYZYMWmEe2WhI0ZcH7BkQ" memberEnd="_MkEykMWmEe2WhI0ZcH7BkQ _NPZngMWmEe2WhI0ZcH7BkQ">
+            <ownedEnd xmi:type="uml:Property" xmi:id="_NPZngMWmEe2WhI0ZcH7BkQ" type="_CWrKcMWmEe2WhI0ZcH7BkQ" association="_NPYZYMWmEe2WhI0ZcH7BkQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_O_Y-cMWmEe2WhI0ZcH7BkQ" name="PC">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_wz4tgMXDEe2WhI0ZcH7BkQ" name="UART" aggregation="composite"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_O_azoMWmEe2WhI0ZcH7BkQ" memberEnd="_OSDXUMWmEe2WhI0ZcH7BkQ _O_co0MWmEe2WhI0ZcH7BkQ">
+            <ownedEnd xmi:type="uml:Property" xmi:id="_O_co0MWmEe2WhI0ZcH7BkQ" type="_CWrKcMWmEe2WhI0ZcH7BkQ" association="_O_azoMWmEe2WhI0ZcH7BkQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_UdHycMWmEe2WhI0ZcH7BkQ" name="Operator Board">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_8YSk0MXDEe2WhI0ZcH7BkQ" name="UART" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="__m0WUMXDEe2WhI0ZcH7BkQ" name="MiWi" aggregation="composite"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_UdJnoMWmEe2WhI0ZcH7BkQ" memberEnd="_S_8p0MWmEe2WhI0ZcH7BkQ _UdLc0MWmEe2WhI0ZcH7BkQ">
+            <ownedEnd xmi:type="uml:Property" xmi:id="_UdLc0MWmEe2WhI0ZcH7BkQ" type="_CWrKcMWmEe2WhI0ZcH7BkQ" association="_UdJnoMWmEe2WhI0ZcH7BkQ"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_bIZXoMWmEe2WhI0ZcH7BkQ" name="System">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_hJmFEMWmEe2WhI0ZcH7BkQ" name="robot" type="_TNX-oMWiEe2WhI0ZcH7BkQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_izbJoMWmEe2WhI0ZcH7BkQ" name="operator Station" type="_CWrKcMWmEe2WhI0ZcH7BkQ"/>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_XdfQgMXEEe2WhI0ZcH7BkQ" name="Connector3">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_XdgeoMXEEe2WhI0ZcH7BkQ" partWithPort="_izbJoMWmEe2WhI0ZcH7BkQ" role="_U_ouAMXEEe2WhI0ZcH7BkQ"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_XdgeocXEEe2WhI0ZcH7BkQ" partWithPort="_hJmFEMWmEe2WhI0ZcH7BkQ" role="_TZSbQMXEEe2WhI0ZcH7BkQ"/>
+          </ownedConnector>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZQAocMcAEe2lcceFNhITdA" name="4 Software Design">
+        <packagedElement xmi:type="uml:Package" xmi:id="_4S0ZMMcAEe2lcceFNhITdA" name="1 Govern Layer">
+          <packagedElement xmi:type="uml:Class" xmi:id="_MUbtYMcBEe2lcceFNhITdA" name="Queue Handler"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RP46wMcBEe2lcceFNhITdA" name="Receive UART Task">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_kHq5EMcBEe2lcceFNhITdA" name="queue handler" type="_MUbtYMcBEe2lcceFNhITdA" association="_kHnOsMcBEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_YUV08McBEe2lcceFNhITdA" name="Send MiWi Task">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_ybzGA8cBEe2lcceFNhITdA" name="queue handler" type="_MUbtYMcBEe2lcceFNhITdA" association="_ybzGAMcBEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_a1Q5kMcBEe2lcceFNhITdA" name="Receive MiWi Task">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_mx2AUscBEe2lcceFNhITdA" name="queue handler" type="_MUbtYMcBEe2lcceFNhITdA" association="_mx1ZQMcBEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cspR8McBEe2lcceFNhITdA" name="Send UART Task">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_xVzuUscBEe2lcceFNhITdA" name="queue handler" type="_MUbtYMcBEe2lcceFNhITdA" association="_xVzHQMcBEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_kHnOsMcBEe2lcceFNhITdA" memberEnd="_kHq5EMcBEe2lcceFNhITdA _kHq5E8cBEe2lcceFNhITdA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kHoc0McBEe2lcceFNhITdA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kHoc0ccBEe2lcceFNhITdA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_kHq5E8cBEe2lcceFNhITdA" name="reveive uart task" type="_RP46wMcBEe2lcceFNhITdA" association="_kHnOsMcBEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_mx1ZQMcBEe2lcceFNhITdA" memberEnd="_mx2AUscBEe2lcceFNhITdA _mx2nYMcBEe2lcceFNhITdA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mx2AUMcBEe2lcceFNhITdA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mx2AUccBEe2lcceFNhITdA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_mx2nYMcBEe2lcceFNhITdA" name="receive miwi task" type="_a1Q5kMcBEe2lcceFNhITdA" association="_mx1ZQMcBEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_xVzHQMcBEe2lcceFNhITdA" memberEnd="_xVzuUscBEe2lcceFNhITdA _xV0VYscBEe2lcceFNhITdA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xVzuUMcBEe2lcceFNhITdA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xVzuUccBEe2lcceFNhITdA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_xV0VYscBEe2lcceFNhITdA" name="send uart task" type="_cspR8McBEe2lcceFNhITdA" association="_xVzHQMcBEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_ybzGAMcBEe2lcceFNhITdA" memberEnd="_ybzGA8cBEe2lcceFNhITdA _ybztEccBEe2lcceFNhITdA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ybzGAccBEe2lcceFNhITdA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ybzGAscBEe2lcceFNhITdA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_ybztEccBEe2lcceFNhITdA" name="send miwi task" type="_YUV08McBEe2lcceFNhITdA" association="_ybzGAMcBEe2lcceFNhITdA"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_9LfYUMcAEe2lcceFNhITdA" name="2 Operator Board">
+          <packagedElement xmi:type="uml:Class" xmi:id="_74IoIMcCEe2lcceFNhITdA" name="Queue Handler"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-ThsgMcCEe2lcceFNhITdA" name="Receive UART Task">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_OJUrE8cEEe2lcceFNhITdA" name="queue handler" type="_74IoIMcCEe2lcceFNhITdA" association="_OJUrEMcEEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_AZDOkMcDEe2lcceFNhITdA" name="Send MiWi Task">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_Nc9UUscEEe2lcceFNhITdA" name="queue handler" type="_74IoIMcCEe2lcceFNhITdA" association="_Nc8tQMcEEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_CVLkEMcDEe2lcceFNhITdA" name="Receive MiWi Task">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_LwYdwscEEe2lcceFNhITdA" name="queue handler" type="_74IoIMcCEe2lcceFNhITdA" association="_LwX2sMcEEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Ervy0McDEe2lcceFNhITdA" name="Send UART Task">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_Msqf0scEEe2lcceFNhITdA" name="queue handler" type="_74IoIMcCEe2lcceFNhITdA" association="_Msp4wMcEEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_LwX2sMcEEe2lcceFNhITdA" memberEnd="_LwYdwscEEe2lcceFNhITdA _LwZE0scEEe2lcceFNhITdA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LwYdwMcEEe2lcceFNhITdA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LwYdwccEEe2lcceFNhITdA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_LwZE0scEEe2lcceFNhITdA" name="receive miwi task" type="_CVLkEMcDEe2lcceFNhITdA" association="_LwX2sMcEEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Msp4wMcEEe2lcceFNhITdA" memberEnd="_Msqf0scEEe2lcceFNhITdA _Msqf1ccEEe2lcceFNhITdA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Msqf0McEEe2lcceFNhITdA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Msqf0ccEEe2lcceFNhITdA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Msqf1ccEEe2lcceFNhITdA" name="send uart task" type="_Ervy0McDEe2lcceFNhITdA" association="_Msp4wMcEEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Nc8tQMcEEe2lcceFNhITdA" memberEnd="_Nc9UUscEEe2lcceFNhITdA _Nc9UVccEEe2lcceFNhITdA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Nc9UUMcEEe2lcceFNhITdA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Nc9UUccEEe2lcceFNhITdA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Nc9UVccEEe2lcceFNhITdA" name="send miwi task" type="_AZDOkMcDEe2lcceFNhITdA" association="_Nc8tQMcEEe2lcceFNhITdA"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_OJUrEMcEEe2lcceFNhITdA" memberEnd="_OJUrE8cEEe2lcceFNhITdA _OJVSIMcEEe2lcceFNhITdA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OJUrEccEEe2lcceFNhITdA" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OJUrEscEEe2lcceFNhITdA" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_OJVSIMcEEe2lcceFNhITdA" name="receive uart task" type="_-ThsgMcCEe2lcceFNhITdA" association="_OJUrEMcEEe2lcceFNhITdA"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KJTTEMXDEe2WhI0ZcH7BkQ" name="2 Low Level">
+      <packagedElement xmi:type="uml:Package" xmi:id="_GPw4YMcFEe2lcceFNhITdA" name="2 Govern Layer">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_A7jz0McFEe2lcceFNhITdA" name="StateMachine1">
+          <region xmi:type="uml:Region" xmi:id="_EGW74McFEe2lcceFNhITdA" name="Region1"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_VBo34MjfEe2KE5QMEivQQA" name="3 Operator Board"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8ZSwYMWBEe2WhI0ZcH7BkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8ZSwYcWBEe2WhI0ZcH7BkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8alJ0MWBEe2WhI0ZcH7BkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8alJ0cWBEe2WhI0ZcH7BkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8alJ0sWBEe2WhI0ZcH7BkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8alJ08WBEe2WhI0ZcH7BkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8alJ1MWBEe2WhI0ZcH7BkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8alJ1cWBEe2WhI0ZcH7BkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8alw4MWBEe2WhI0ZcH7BkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8alw4cWBEe2WhI0ZcH7BkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8alw4sWBEe2WhI0ZcH7BkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8alw48WBEe2WhI0ZcH7BkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8alw5MWBEe2WhI0ZcH7BkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8alw5cWBEe2WhI0ZcH7BkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8alw5sWBEe2WhI0ZcH7BkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8alw58WBEe2WhI0ZcH7BkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8alw6MWBEe2WhI0ZcH7BkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8alw6cWBEe2WhI0ZcH7BkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8alw6sWBEe2WhI0ZcH7BkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8amX8MWBEe2WhI0ZcH7BkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_fU_PgMWIEe2WhI0ZcH7BkQ" base_Class="_fU9aUMWIEe2WhI0ZcH7BkQ" id="R001-A" text="El operario debe introducir las coordenadas de los puntos de control a alcanzar a lo largo de un recorrido, siendo la ultima la meta"/>
+  <Requirements:Requirement xmi:id="_fVCS0MWIEe2WhI0ZcH7BkQ" base_Class="_fVAdoMWIEe2WhI0ZcH7BkQ" id="R002-A" text="El operario puede introducir la velocidad lineal y la velocidad angular del robot, asi como el tiempo que se va a estar ejecutando esa orden"/>
+  <Requirements:Requirement xmi:id="_fVEvEMWIEe2WhI0ZcH7BkQ" base_Class="_fVDg8MWIEe2WhI0ZcH7BkQ" id="R003-A" text="El operario puede cargar un fichero con una lista de coordenadas. Estas coordenadas seguiran el formato X1,Y1 X2,Y2"/>
+  <Requirements:Requirement xmi:id="_fVHyYMWIEe2WhI0ZcH7BkQ" base_Class="_fVF9MMWIEe2WhI0ZcH7BkQ" id="R004-A" text="Tras finalizar la ejecucion el usuario tendra la opcion de exportar el log de la ejecucionn a un fichero"/>
+  <Requirements:Requirement xmi:id="_fVKOoMWIEe2WhI0ZcH7BkQ" base_Class="_fVJAgMWIEe2WhI0ZcH7BkQ" id="R005-A" text="Para lanzar la ejecucion del plan de trabajo establecido es necesario que el operario pulse el boton de ejecucicion"/>
+  <Requirements:Requirement xmi:id="_fVNR8MWIEe2WhI0ZcH7BkQ" base_Class="_fVLcwMWIEe2WhI0ZcH7BkQ" id="R006-A" text="Cuando se ha solicitado ejecutar el trabajo, el software de gobierno replicara con las prdenes que ha recibido para que el software del operario lo compare con las ordenes enviadas, realizando asi una verificacion de la orden realmente recibida"/>
+  <Requirements:Requirement xmi:id="_fVQVQMWIEe2WhI0ZcH7BkQ" base_Class="_fVOgEMWIEe2WhI0ZcH7BkQ" id="R007-A" text="Tras la confirmacion del mensaje recibido por gobierno, dara comienzo la ejecucion"/>
+  <Requirements:Requirement xmi:id="_fVTYkMWIEe2WhI0ZcH7BkQ" base_Class="_fVRjYMWIEe2WhI0ZcH7BkQ" id="R008-A" text="En cualquier momento de la ejecucion es posible ordenar al robot que se detenga mediante el boton de pausa"/>
+  <Requirements:Requirement xmi:id="_fVV00MWIEe2WhI0ZcH7BkQ" base_Class="_fVT_oMWIEe2WhI0ZcH7BkQ" id="R009-A" text="Durante la ejecucion o al final de la misma es posible que el operario solicite la vuelta a base"/>
+  <Requirements:Requirement xmi:id="_fVY4IMWIEe2WhI0ZcH7BkQ" base_Class="_fVXC8MWIEe2WhI0ZcH7BkQ" id="R010-A" text="Se solicita al gobierno que se escanee el entorno segun el sensor requerido y que devuelva la posicion o distancia que hay hasta los proximos obstaculos"/>
+  <Requirements:Requirement xmi:id="_fVb7cMWIEe2WhI0ZcH7BkQ" base_Class="_fVaGQMWIEe2WhI0ZcH7BkQ" id="R011-A" text="Cuando se ha solicitado la informacion de algun sensor se hace una representacion grafica de los obstaculos que se han encontrado respecto al marco de referencia local del robot. En el caso del sensor de ultrasonidos, este ira montado sobre una plataforma que le permite girar 180º para leer todo su entorno"/>
+  <Requirements:Requirement xmi:id="_fVeXsMWIEe2WhI0ZcH7BkQ" base_Class="_fVcigMWIEe2WhI0ZcH7BkQ" id="R012-A" text="Al alcanzar un checkpoint envia la informacion al puesto de operario para que se muestre en el log"/>
+  <Requirements:Requirement xmi:id="_fVgz8MWIEe2WhI0ZcH7BkQ" base_Class="_fVfl0MWIEe2WhI0ZcH7BkQ" id="R013-A" text="Se solicita a la capa de gobierno que lea la posicion segun la odometria"/>
+  <Requirements:Requirement xmi:id="_fVj3QMWIEe2WhI0ZcH7BkQ" base_Class="_fViCEMWIEe2WhI0ZcH7BkQ" id="R014-A" text="Se solicita a la capa de gobierno que lea la posicion segun la IMU"/>
+  <Requirements:Requirement xmi:id="_fVmTgMWIEe2WhI0ZcH7BkQ" base_Class="_fVlFYMWIEe2WhI0ZcH7BkQ" id="R015-A" text="Se solicita a la capa de gobierno que lea la posicion segun la triangulacion"/>
+  <Blocks:Block xmi:id="_TNaa4MWiEe2WhI0ZcH7BkQ" base_Class="_TNX-oMWiEe2WhI0ZcH7BkQ"/>
+  <Blocks:Block xmi:id="_DtNKcMWkEe2WhI0ZcH7BkQ" base_Class="_DtL8UMWkEe2WhI0ZcH7BkQ"/>
+  <Blocks:Block xmi:id="_fNRNMMWkEe2WhI0ZcH7BkQ" base_Class="_fNPYAMWkEe2WhI0ZcH7BkQ"/>
+  <Blocks:Block xmi:id="_nGSX4MWkEe2WhI0ZcH7BkQ" base_Class="_nGRJwMWkEe2WhI0ZcH7BkQ"/>
+  <Blocks:Block xmi:id="_rg6JEMWkEe2WhI0ZcH7BkQ" base_Class="_rg4T4MWkEe2WhI0ZcH7BkQ"/>
+  <Blocks:Block xmi:id="_wBKoMMWkEe2WhI0ZcH7BkQ" base_Class="_wBIzAMWkEe2WhI0ZcH7BkQ"/>
+  <Blocks:Block xmi:id="_CWs_oMWmEe2WhI0ZcH7BkQ" base_Class="_CWrKcMWmEe2WhI0ZcH7BkQ"/>
+  <Blocks:Block xmi:id="_NPXyUMWmEe2WhI0ZcH7BkQ" base_Class="_NPV9IMWmEe2WhI0ZcH7BkQ"/>
+  <Blocks:Block xmi:id="_O_aMkMWmEe2WhI0ZcH7BkQ" base_Class="_O_Y-cMWmEe2WhI0ZcH7BkQ"/>
+  <Blocks:Block xmi:id="_UdJAkMWmEe2WhI0ZcH7BkQ" base_Class="_UdHycMWmEe2WhI0ZcH7BkQ"/>
+  <Blocks:Block xmi:id="_bIbM0MWmEe2WhI0ZcH7BkQ" base_Class="_bIZXoMWmEe2WhI0ZcH7BkQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_-ZfnkMXDEe2WhI0ZcH7BkQ" base_Element="_-ZbWIMXDEe2WhI0ZcH7BkQ" propertyPath="_OSDXUMWmEe2WhI0ZcH7BkQ" base_ConnectorEnd="_-ZbWIMXDEe2WhI0ZcH7BkQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_-ZgOoMXDEe2WhI0ZcH7BkQ" base_Element="_-ZbWIcXDEe2WhI0ZcH7BkQ" propertyPath="_S_8p0MWmEe2WhI0ZcH7BkQ" base_ConnectorEnd="_-ZbWIcXDEe2WhI0ZcH7BkQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_XdgeosXEEe2WhI0ZcH7BkQ" base_Element="_XdgeoMXEEe2WhI0ZcH7BkQ" propertyPath="_izbJoMWmEe2WhI0ZcH7BkQ" base_ConnectorEnd="_XdgeoMXEEe2WhI0ZcH7BkQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_XdhFsMXEEe2WhI0ZcH7BkQ" base_Element="_XdgeocXEEe2WhI0ZcH7BkQ" propertyPath="_hJmFEMWmEe2WhI0ZcH7BkQ" base_ConnectorEnd="_XdgeocXEEe2WhI0ZcH7BkQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_mzkCosXEEe2WhI0ZcH7BkQ" base_Element="_mzkCoMXEEe2WhI0ZcH7BkQ" propertyPath="_d3bboMWkEe2WhI0ZcH7BkQ" base_ConnectorEnd="_mzkCoMXEEe2WhI0ZcH7BkQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_mzkCo8XEEe2WhI0ZcH7BkQ" base_Element="_mzkCocXEEe2WhI0ZcH7BkQ" propertyPath="_u0G_MMWkEe2WhI0ZcH7BkQ" base_ConnectorEnd="_mzkCocXEEe2WhI0ZcH7BkQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_wclLUcXEEe2WhI0ZcH7BkQ" base_Element="_wckkQMXEEe2WhI0ZcH7BkQ" propertyPath="_52kcgMWjEe2WhI0ZcH7BkQ" base_ConnectorEnd="_wckkQMXEEe2WhI0ZcH7BkQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_wclLUsXEEe2WhI0ZcH7BkQ" base_Element="_wclLUMXEEe2WhI0ZcH7BkQ" propertyPath="_d3bboMWkEe2WhI0ZcH7BkQ" base_ConnectorEnd="_wclLUMXEEe2WhI0ZcH7BkQ"/>
+  <PortsAndFlows:ProxyPort xmi:id="_AK5eUMXFEe2WhI0ZcH7BkQ" base_Port="_AKiR8MXFEe2WhI0ZcH7BkQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_FkG-sMXFEe2WhI0ZcH7BkQ" base_Element="_FkGXocXFEe2WhI0ZcH7BkQ" propertyPath="_52kcgMWjEe2WhI0ZcH7BkQ" base_ConnectorEnd="_FkGXocXFEe2WhI0ZcH7BkQ"/>
+  <PortsAndFlows:ProxyPort xmi:id="_K0t8sMXFEe2WhI0ZcH7BkQ" base_Port="_K0rgcMXFEe2WhI0ZcH7BkQ"/>
+  <Blocks:NestedConnectorEnd xmi:id="_Mh2z8cXFEe2WhI0ZcH7BkQ" base_Element="_Mh2M4MXFEe2WhI0ZcH7BkQ" propertyPath="_S_8p0MWmEe2WhI0ZcH7BkQ" base_ConnectorEnd="_Mh2M4MXFEe2WhI0ZcH7BkQ"/>
+  <Blocks:Block xmi:id="_MUeJoMcBEe2lcceFNhITdA" base_Class="_MUbtYMcBEe2lcceFNhITdA"/>
+  <Blocks:Block xmi:id="_RP7XAMcBEe2lcceFNhITdA" base_Class="_RP46wMcBEe2lcceFNhITdA"/>
+  <Blocks:Block xmi:id="_YUY4QMcBEe2lcceFNhITdA" base_Class="_YUV08McBEe2lcceFNhITdA"/>
+  <Blocks:Block xmi:id="_a1TV0McBEe2lcceFNhITdA" base_Class="_a1Q5kMcBEe2lcceFNhITdA"/>
+  <Blocks:Block xmi:id="_cssVQMcBEe2lcceFNhITdA" base_Class="_cspR8McBEe2lcceFNhITdA"/>
+  <Blocks:Block xmi:id="_74KdUMcCEe2lcceFNhITdA" base_Class="_74IoIMcCEe2lcceFNhITdA"/>
+  <Blocks:Block xmi:id="_-TjhsMcCEe2lcceFNhITdA" base_Class="_-ThsgMcCEe2lcceFNhITdA"/>
+  <Blocks:Block xmi:id="_AZFq0McDEe2lcceFNhITdA" base_Class="_AZDOkMcDEe2lcceFNhITdA"/>
+  <Blocks:Block xmi:id="_CVOAUMcDEe2lcceFNhITdA" base_Class="_CVLkEMcDEe2lcceFNhITdA"/>
+  <Blocks:Block xmi:id="_ErxoAMcDEe2lcceFNhITdA" base_Class="_Ervy0McDEe2lcceFNhITdA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_zba1kMjmEe2KE5QMEivQQA" base_Element="_zbaOgMjmEe2KE5QMEivQQA" propertyPath="_pzj2cMWkEe2WhI0ZcH7BkQ" base_ConnectorEnd="_zbaOgMjmEe2KE5QMEivQQA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_zbbcoMjmEe2KE5QMEivQQA" base_Element="_zbaOgcjmEe2KE5QMEivQQA" propertyPath="_d3bboMWkEe2WhI0ZcH7BkQ" base_ConnectorEnd="_zbaOgcjmEe2KE5QMEivQQA"/>
+</xmi:XMI>
